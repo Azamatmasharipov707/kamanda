@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+.nav_content{
+    display: flex;
+    justify-content: space-between;
+}
+
 ul{
     list-style: none;
     display: flex;
@@ -12,24 +17,17 @@ ul{
 }
 a{
     text-decoration: none;
-    font-size: 20px;
+    font-size: 50px;
     text-transform: capitalize;
     color: white;
     padding: 10px 10px;
     display: inline-block;
 }
 .container{
-    max-width: 1000px;
+    max-width: 1200px;
     width: 100%;
     margin:0 auto;
 }
-.nav_content{
-    display: flex;
-    justify-content: space-between;
-}
-body{
-    font-family: 'cursive';
-}
-.navbar{
-    color: dodgerblue;
+.nav{
+    background: dodgerblue;
 }
