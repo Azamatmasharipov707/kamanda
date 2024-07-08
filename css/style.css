@@ -7,11 +7,14 @@
 header{
     height: 100vh;
     background-color: purple;
+    display: flex;
+    flex-direction: column;
 }
 
 .nav_content{
     display: flex;
     justify-content: space-between;
+
 }
 
 ul{
