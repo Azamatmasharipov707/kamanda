@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+header{
+    height: 100vh;
+    background-color: purple;
+}
+
 .nav_content{
     display: flex;
     justify-content: space-between;
@@ -30,4 +35,12 @@ a{
 }
 .nav{
     background: dodgerblue;
+}
+
+.header__content{
+    font-size: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
 }
