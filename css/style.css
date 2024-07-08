@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+    font-size: 20px;
+    text-transform: capitalize;
+    color: white;
+    padding: 10px 10px;
+    display: inline-block;
+}
+.container{
+    max-width: 1000px;
+    width: 100%;
+    margin:0 auto;
+}
+.nav_content{
+    display: flex;
+    justify-content: space-between;
+}
+body{
+    font-family: 'cursive';
+}
+.navbar{
+    color: dodgerblue;
+}
